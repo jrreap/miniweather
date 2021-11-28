@@ -8,6 +8,6 @@
 #SBATCH -N 1     	    # Number of nodes, not cores (16 cores/node)
 #SBATCH -n 4                # Number of cores requested in total
 
-#SBATCH -t 00:05:00         # set maximum run time of 30 minutes
+#SBATCH -t 00:20:00         # set maximum run time of 20 minutes
 
 mpirun -n 4 ./miniWeather
