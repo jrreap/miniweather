@@ -126,7 +126,7 @@ int main(int argc, char **argv) {
   nz_glob = 200;       //Number of total cells in the z-dirction
   sim_time = 1000;     //How many seconds to run the simulation
   output_freq = 10;   //How frequently to output data to file (in seconds)
-  data_spec_int = DATA_SPEC_THERMAL;  //How to initialize the data
+  data_spec_int = DATA_SPEC_COLLISION;  //How to initialize the data
   ///////////////////////////////////////////////////////////////////////////////////////
   // END USER-CONFIGURABLE PARAMETERS
   ///////////////////////////////////////////////////////////////////////////////////////
