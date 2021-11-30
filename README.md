@@ -12,5 +12,5 @@ Then simply schedule a job using `sbatch` and the provided batch script. This ca
 
 ## Maintainers
 Jaydon Reap (jrreap)
-Daniel Horta (???)
+Daniel Horta (DandaMan65)
 Aaron Liu (olympus)
