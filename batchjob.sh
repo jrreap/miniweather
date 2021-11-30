@@ -6,8 +6,10 @@
 #SBATCH --mail-type=ALL
 
 #SBATCH -N 1     	    # Number of nodes, not cores (16 cores/node)
-#SBATCH -n 1                # Number of cores requested in total
+#SBATCH -n 4                # Number of cores requested in total
 
 #SBATCH -t 00:20:00         # set maximum run time of 20 minutes
 
+export ACC_NUM_CORES=4
 mpirun -n 1 ./miniWeather
+#ncu --set full -o serial -f mpirun -n 1 ./miniWeather
