@@ -10,6 +10,6 @@
 
 #SBATCH -t 00:20:00         # set maximum run time of 20 minutes
 
-export ACC_NUM_CORES=4
+export ACC_NUM_CORES=16
 mpirun -n 1 ./miniWeather
 #ncu --set full -o serial -f mpirun -n 1 ./miniWeather
